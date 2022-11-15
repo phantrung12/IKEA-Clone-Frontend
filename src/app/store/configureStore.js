@@ -10,4 +10,4 @@ export function configureAppStore() {
   return store;
 }
 const store = configureAppStore();
-export const useAppDispatch = () => useDispatch<typeof store.dispatch>();
+export const useAppDispatch = () => useDispatch();
